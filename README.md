@@ -3,7 +3,7 @@
 
 Grid allows you to : 
 
-scale by distributing tests on several machines ( parallel execution )
+- scale by distributing tests on several machines ( parallel execution )
 - manage multiple environments from a central point, making it easy to run the tests against a vast combination of browsers / OS.
 - minimize the maintenance time for the grid by allowing you to implement custom hooks to leverage virtual infrastructure for instance. 
 
@@ -25,6 +25,7 @@ java -jar selenium-server-standalone-2.14.0.jar -role hub
 
 
 
+## Important Links
 
 [Official Website](http://selenium-grid.seleniumhq.org)
 
