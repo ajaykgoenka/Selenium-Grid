@@ -1,14 +1,23 @@
+
+### Introduction
+
+Grid allows you to : 
+
+scale by distributing tests on several machines ( parallel execution )
+- manage multiple environments from a central point, making it easy to run the tests against a vast combination of browsers / OS.
+- minimize the maintenance time for the grid by allowing you to implement custom hooks to leverage virtual infrastructure for instance. 
+
 #### Quick Start
 This example will show you how to start the Selenium 2 Hub, and register both a WebDriver node and a Selenium 1 RC legacy node. We’ll also show you how to call the grid from Java. The hub and nodes are shown here running on the same machine, but of course you can copy the selenium-server-standalone to multiple machines. 
 
 
-###### Step 1: Start the hub 
+##### Step 1: Start the hub 
 
 The Hub is the central point that will receive all the test request and distribute them the the right nodes.
 
 Open a command prompt and navigate to the directory where you copied the selenium-server-standalone file. Type the following command: 
 
-**Example,** Display the title of the page
+**Step 1: Start the hub ** 
 
 ``` java
 java -jar selenium-server-standalone-2.14.0.jar -role hub
