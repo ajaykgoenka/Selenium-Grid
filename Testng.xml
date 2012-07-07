@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="test Suite" verbose="3" parallel="tests" thread-count="10">
+  
+<test name="Running on Firefox" >
+  <parameter name="browser" value="Firefox"/>
+    <classes>
+       <class name="com.grid.GridDemo"></class> 
+    </classes>    
+</test> 
+ 
+<test name="Running on Chrome" >
+  <parameter name="browser" value="Chrome"/>
+    <classes>
+       <class name="com.grid.GridDemo"></class> 
+    </classes>    
+</test> 
+
+<test name="Running on Internet Explorer" >
+  <parameter name="browser" value="IE"/>
+    <classes>
+       <class name="com.grid.GridDemo"></class> 
+    </classes>    
+</test> 
+
+</suite>
+
